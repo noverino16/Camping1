@@ -1,0 +1,95 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.detail {
+    width: 50%;
+    text-align: left;
+}
+
+h1 {
+    text-align: left;
+    margin-top: 60px;
+}
+
+p {
+    margin-bottom: 50px;
+    margin-top: -10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    /* border-radius: 10px; */
+    margin-right: 20px;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ffffff;
+}
+
+img {
+    width: 50px;
+    height: auto;
+    display: block; /* Center the image */
+    margin: 0 auto 10px; /* Margin to position the image at the top */
+    padding-top: 10px;
+}
+
+.btn {
+    background-color: #ff8737;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    height: 40px;
+    width: 700px;
+    justify-content: center;
+    
+}
+
+.btn:hover {
+    background-color: #d27638;
+}
+
+.image{
+    background-color: #fcfcfc;
+    width: 700px;
+    height: 150px;
+    border-bottom: 5px;
+     
+}
+
+.image p{
+   align-content: center;
+
+}
+
+.image .imgprnt{
+    margin-left: 660px;
+    position: absolute;
+    width: 20px;
+    height: auto;
+    
+}
+.image .imgcmplt{
+    
+    width: 80px;
+    height: auto;
+    
+}
+
+table .jumlahtf{
+    font-size: 25px;
+} 
+
+ 

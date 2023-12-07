@@ -1,0 +1,80 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.detail {
+    width: 50%;
+    text-align: left;
+}
+
+h1 {
+    text-align: left;
+    margin-top: 60px;
+}
+
+p {
+    margin-bottom: 20px;
+    margin-top: -10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: whita;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #efeded;
+}
+
+/* Add margin-right to the specific table cells */
+th:nth-child(2),
+td:nth-child(2),
+th:nth-child(3),
+td:nth-child(3),
+th:nth-child(4),
+td:nth-child(4) {
+    margin-right: 20px;
+}
+
+img {
+    width: 50px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+    padding-top: 10px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #45a049;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    height: 33px;
+    width: 50%;
+}
+
+/* Style for the select dropdown */
+.form-select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* Style for the checkbox */
+input[type="checkbox"] {
+    margin-top: 5px;
+}
+ 
